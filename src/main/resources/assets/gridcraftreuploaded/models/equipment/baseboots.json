@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gridcraftreuploaded:base",
+        "dyeable": {
+          "color_when_undyed": 16777215
+        }
+      },
+      {
+        "texture": "gridcraftreuploaded:base_overlay"
+      }
+    ]
+  }
+}

@@ -16,12 +16,15 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GridCraftReuploaded.MODID);
 
     public static final Supplier<CreativeModeTab> GRIDCRAFT_MAIN_TAB = CREATIVE_MODE_TAB.register("gridcraft_main_tab",
-            ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.IDENTITYDISK.get()))
+            ()-> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.IDENTITYDISK.get()))
                     .title(Component.translatable("creativetab.gridcraftreuploaded.gridcraft_main"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                      output.accept(ModItems.IDENTITYDISK);
-                      output.accept(ModBlocks.RGB_PROGRAMMER);
-                    }).build());
+                    .displayItems((params, output) -> {
+                      output.accept(ModItems.IDENTITYDISK.get());
+
+                      output.accept(ModBlocks.RGB_PROGRAMMER.get().asItem());
+                    })
+                    .build());
 
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TAB.register(eventBus);

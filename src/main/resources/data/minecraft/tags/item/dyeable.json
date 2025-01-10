@@ -1,0 +1,23 @@
+{
+  "values": [
+    {
+      "id": "gridcraftreuploaded:basehelm",
+      "required": false
+    },
+    {
+      "id": "gridcraftreuploaded:basechest",
+      "required": false
+    },
+    {
+      "id": "gridcraftreuploaded:baselegs",
+      "required": false
+    },
+    {
+      "id": "gridcraftreuploaded:baseboots",
+      "required": false
+    }
+  ],
+  "replace": false,
+  "remove": [
+  ]
+}

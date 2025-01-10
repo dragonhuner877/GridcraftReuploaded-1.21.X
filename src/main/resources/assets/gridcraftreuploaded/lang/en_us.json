@@ -1,5 +1,21 @@
 {
   "item.gridcraftreuploaded.iddisk" : "Identity Disk",
+  "item.gridcraftreuploaded.basehelm" : "Disk Helmet",
+  "item.gridcraftreuploaded.basechest" : "Disk ChestPlate",
+  "item.gridcraftreuploaded.baselegs" : "Disk Leggings",
+  "item.gridcraftreuploaded.baseboots" : "Disk Boots",
+
   "block.gridcraftreuploaded.color_programmer" : "Color Encoder",
-  "creativetab.gridcraftreuploaded.gridcraft_main" : "GridCraft"
+
+  "creativetab.gridcraftreuploaded.gridcraft_main" : "GridCraft",
+
+  "key.gridcraftreuploaded.activateitemkey" : "Activate Item",
+  "key.categories.gridcraftreuploaded.gridcraft" : "Gridcraft",
+
+  "tooltip.gridcraftreuploaded.iddiskcrouch" : "Hold §6Shift§r to View",
+  "tooltip.gridcraftreuploaded.iddisk1" : "Press the ",
+  "tooltip.gridcraftreuploaded.iddisk2" : " key without armor to use",
+
+  "container.colorpicker.color_picker" : "Color Programmer Interface",
+  "menu.title.gridcraftreuploaded.color_picker" : "Color Programmer Interface"
 }

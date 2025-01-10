@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0" : "gridcraftreuploaded:item/armor/base_boots0",
+    "layer1" : "gridcraftreuploaded:item/armor/base_boots1"
+  }
+}

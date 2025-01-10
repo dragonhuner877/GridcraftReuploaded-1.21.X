@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0" : "gridcraftreuploaded:item/iddisk"
+    "layer0" : "gridcraftreuploaded:item/disk_l0",
+    "layer1" : "gridcraftreuploaded:item/disk_l1"
   }
 }

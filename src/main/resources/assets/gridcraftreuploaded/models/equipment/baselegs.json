@@ -1,0 +1,16 @@
+{
+  "layers": {
+    "humanoid_leggings": [
+      {
+        "texture": "gridcraftreuploaded:base_leggings",
+        "dyeable": {
+          "color_when_undyed": 16777215
+        }
+      },
+      {
+        "texture": "gridcraftreuploaded:base_leggings_overlay"
+      }
+
+    ]
+  }
+}
